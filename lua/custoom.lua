@@ -12,7 +12,7 @@ vim.o.expandtab = true
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 
-vim.o.laststatus =3
+vim.o.laststatus = 3
 
 vim.o.splitbelow = true                        -- force all horizontal splits to go below current window
 vim.o.splitright = true                        -- force all vertical splits to go to the right of current window
@@ -63,6 +63,7 @@ require('lualine').setup {
     theme = 'onedark',
     component_separators = '|',
     section_separators = '',
+    globalstatus=true,
   },
 }
 --- End Additions of my own
