@@ -30,11 +30,11 @@ end
 
 -- ... and there is more!
 --  Check out: https://github.com/echasnovski/mini.nvim
-
+--
 require("mini.git").setup({
 	command = {
 		split = "vertical",
 	},
 })
---
-require('mini.pairs').setup()
+
+require("mini.pairs").setup()
