@@ -36,4 +36,5 @@ require("mini.git").setup({
 		split = "vertical",
 	},
 })
-
+--
+require('mini.pairs').setup()
