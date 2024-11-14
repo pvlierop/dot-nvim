@@ -182,8 +182,7 @@ vim.list_extend(ensure_installed, {
     'gofumpt',   -- Go formatter
     'black',     -- Python formatter
     'isort',     -- Python formatter
-    'prettierd', -- javascript, typescript
-    'prettier'   -- javascript, typescript
+    -- 'prettier'   -- javascript, typescript -- Using the formatter from the vtsls lsp 
 })
 require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
